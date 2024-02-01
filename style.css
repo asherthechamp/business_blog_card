@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+body {
+    background-color: #F2F5F9;
+}
+
+.heroimg {
+    background-image: url('images/hero.png');
+    background-size: 350px 300px;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    left: 50%;
+    margin-left: -175px;
+}
+
+.overlay {
+    position: absolute;
+    width: 352px;
+    height: 300px;
+    top: 125px;
+}
+
+.container {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF ;
+}
+
+.upper {
+    position: fixed;
+}
+.lower {
+    position: fixed;
+    top: 300px;
+    background-color: #FFFFFF;
+    width: 350px;
+    border-radius: 0px 0px 15px 15px;
+}
+.title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    padding: 0px 15px;
+    color: #111729
+}
+
+.desc {
+    font-family: "Lato";
+    font-size: 16px;
+    padding: 0px 15px 15px 15px;
+    color: #677489
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.profile {
+    display: flex;
+    padding: 35px 15px 15px 25px;
+    font-family: "Lato";
+    flex-direction: row;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 0px;
+    padding: 0px 25px;
+    height: 50px;
+}
+.user_desc {
+    font-size: 12px;
+    padding: 0px;
+}
+
+.user_name {
+    padding: 0px;
+    line-height: 0px;
+    margin: 20px 0px;
+}
+
+hr {
+    color: #F2F5F9;
+    background-color: #F2F5F9;
+    border-color: #F2F5F9;
+}
+
+.user_desc {
+    line-height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
